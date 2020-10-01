@@ -62,6 +62,7 @@ span {
 
 .nav-text a:hover {
     background-color: #75be9a;
+    transition: 500ms;
 }
 
 .nav-menu-items {
