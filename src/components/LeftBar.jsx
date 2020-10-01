@@ -1,7 +1,7 @@
 import React from 'react';
-import '../components/components-css/Home.css'
-import {KnowledgeData} from '../components/data/KnowledgeData';
-import {LearningData} from '../components/data/LearningData';
+import './components-css/LeftBar.css'
+import {KnowledgeData} from './data/KnowledgeData';
+import {LearningData} from './data/LearningData';
 import * as GrIcons from 'react-icons/gr';
 
 function Home() {
@@ -35,19 +35,16 @@ function Home() {
                 <div>
                     <h3>Find Out More:</h3>
                     <a target="_blank" href='https://github.com/RyanLuttrell'>
-                        <GrIcons.GrGithub className="social-icons" />
+                        <GrIcons.GrGithub className="social-icons github" />
                     </a>
                     <a target="_blank" href='https://www.linkedin.com/in/ryan-luttrell/'>
-                        <GrIcons.GrLinkedin className="social-icons" />
+                        <GrIcons.GrLinkedin className="social-icons linkedin" />
                     </a>
                     <a target="_blank" href='https://www.instagram.com/standardryan/'>
-                        <GrIcons.GrInstagram className="social-icons" />
+                        <GrIcons.GrInstagram className="social-icons instagram" />
                     </a>
 
                 </div>
-            </div>
-            <div className="home-70">
-
             </div>
         </div>
     )

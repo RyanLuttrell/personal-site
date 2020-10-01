@@ -1,0 +1,41 @@
+.project-link {
+    text-decoration: none;
+}
+
+.project-container {
+    color: black;
+    margin-bottom: 30px;
+    float: right;
+    width: 68%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: .5px .5px 5px lightslategray; 
+}
+
+.project-primary-image {
+    max-width: 752px;
+}
+
+.main-content {
+    padding: 10px 0 0 10px;
+}
+
+.project-title {
+    float: left;
+    padding: 6px;
+}
+
+.project-date {
+    float: right;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.project-description {
+    padding: 20px;
+}
+
+.project-technologies {
+    padding: 10px 0 10px 20px;
+}
+

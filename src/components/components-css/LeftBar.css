@@ -26,18 +26,8 @@ h3 {
     float: left;
     width: 30%;
     background-color: white;
-    height: 400px;
     border-radius: 6px;
     box-shadow: .5px .5px 5px lightslategray;
-}
-
-.home-70 {
-    float: right;
-    width: 68%;
-    background-color: white;
-    height: 1500px;
-    border-radius: 6px;
-    box-shadow: .5px .5px 5px lightslategray; 
 }
 
 .html {
@@ -131,4 +121,16 @@ h3 {
     font-size: 40px;
     margin: 10px 20px;
     color: black;
+}
+
+.github:hover {
+    color: #7dbbe6;
+}
+
+.linkedin:hover {
+    color: #006192;
+}
+
+.instagram:hover {
+    color: #dd2a7b;
 }
