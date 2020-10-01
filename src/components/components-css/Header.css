@@ -1,0 +1,54 @@
+h4 {
+    font-size: 25px;
+  }
+  
+  .name,
+  .position {
+    padding-bottom: 4px;
+  }
+  
+  .main-header {
+    background-color: white;
+    height: 175px;
+    border-radius: 6px;
+    box-shadow: .5px .5px 5px lightslategray;
+  }
+  
+  .primary-container {
+    max-width: 1145px;
+    margin: auto;
+    height: 500px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .profile-badge {
+    padding: 24px 0 0 30px;
+    display: inline-block;
+  }
+  
+  .profile-image-container {
+    float: left;
+  }
+  
+  .profile-content {
+    width: 400px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  .profile-image {
+    max-width: 125px;
+  }
+  
+  .main-navigation {
+    float: right;
+    padding-right: 55px;
+    padding-top: 55px;
+  }
+  
+  .to-inline {
+    display: inline;
+  }

@@ -3,7 +3,8 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Router>
           <Header />
           <Switch>
-            <Route path="/" />
+            <Route exact path="/" component={Home} />
+            <Route path='/about' component={About} />
           </Switch>
         </Router>
       </div>

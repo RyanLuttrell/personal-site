@@ -1,0 +1,128 @@
+h3 {
+    padding: 20px 0 10px 20px;
+}
+
+
+
+.knowledge-div {
+    display: inline-block;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.knowledge {
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.primary-home-container {
+    margin-top: 25px;
+}
+
+.home-30 {
+    float: left;
+    width: 30%;
+    background-color: white;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: .5px .5px 5px lightslategray;
+}
+
+.home-70 {
+    float: right;
+    width: 68%;
+    background-color: white;
+    height: 1500px;
+    border-radius: 6px;
+    box-shadow: .5px .5px 5px lightslategray; 
+}
+
+.html {
+    border: 1px solid #e44d26;
+}
+
+.html:hover {
+    background-color: #e44d26;
+}
+
+.css {
+    border: 1px solid #3c99dc;
+}
+.css:hover {
+    background-color: #3c99dc;
+}
+
+.javascript {
+    border: 1px solid  #f0db4f ;
+}
+
+.javascript:hover {
+    background-color:#f0db4f ;
+}
+
+.node {
+    border: 1px solid #3c873a;
+}
+
+.node:hover {
+    background: #3c873a;
+}
+
+.express {
+    border: 1px solid darkgrey;
+}
+
+.express:hover {
+    background-color: darkgrey;
+}
+
+.react {
+    border: 1px solid #61dbfb;
+}
+
+.react:hover {
+    background-color: #61dbfb;
+}
+
+.pug {
+    border: 1px solid #efcca3;
+}
+
+.pug:hover {
+    background-color: #efcca3;
+}
+
+.rest {
+    border: 1px solid #8cc63f;
+}
+
+.rest:hover {
+    background-color: #8cc63f;
+}
+
+.sql {
+    border: 1px solid #00758F;
+}
+
+.sql:hover {
+    background-color: #00758F;
+}
+
+.php {
+    border: 1px solid #474A8A;
+}
+
+.php:hover {
+    background-color: #474A8A;
+}
+
+.mongo {
+    border: 1px solid #4db33d;
+}
+
+.mongo:hover {
+    background-color: #4db33d;
+}

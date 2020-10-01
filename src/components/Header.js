@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import './components-css/Header.css'
 
 export default function Header() {
 
@@ -7,11 +8,11 @@ export default function Header() {
         <div className="main-header">
             <div className="profile-badge">
                 <div className="profile-image-container">
-                    <img src="me.png" className="profile-image"/>
+                    <img src="me.png" className="profile-image" alt="Ryan Luttrell"/>
                 </div>
                 <div className="profile-content">
-                    <h4>Ryan Luttrell</h4>
-                    <p>Full-Stack Software Engineer</p>
+                    <h4 className="name">Ryan Luttrell</h4>
+                    <p className="position">Full-Stack Software Engineer</p>
                     <p>Calgary, AB, Canada</p>
                 </div>
             </div>
