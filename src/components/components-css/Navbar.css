@@ -9,7 +9,7 @@ span {
     margin-top: 4px;
     padding-top: 9px;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50%;
 }
 
@@ -81,8 +81,26 @@ span {
 
 .toggler {
     padding: 12px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 12px 2px 12px;
+    box-shadow: .5px .5px 5px rgb(121, 121, 121);
 }
 
 .close-icon {
     font-size: 20px;
 }
+
+
+@media (max-width: 768px) {
+    .toggler {
+        background-color: white;
+        border-radius: 50%;
+        padding: 10px 12px 2px 12px;
+        box-shadow: .5px .5px 5px rgb(121, 121, 121);
+    }
+
+    .navbar {
+        border: none;
+    }
+  }

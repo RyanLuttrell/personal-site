@@ -15,7 +15,7 @@ export default function Project() {
                                     <h1 className='project-title'>{project.title}</h1>
                                     <h3 className='project-date'>{project.date}</h3>
                                 </div>
-                                <div>
+                                <div className="img-container">
                                     <img src={project.photos[0]} className='project-primary-image' alt={project.alt}/>
                                 </div>
                                 <div className='secondary-content'>

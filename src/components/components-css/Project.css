@@ -13,7 +13,7 @@
 }
 
 .project-primary-image {
-    max-width: 752px;
+    max-width: 100%;
 }
 
 .main-content {
@@ -42,5 +42,9 @@
 
 .project-github {
     float: right;
+}
+
+.img-container {
+    max-width: 752px;
 }
 
