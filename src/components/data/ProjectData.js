@@ -16,8 +16,7 @@ export const ProjectData = [
         date: 'August 12, 2020',
         technologies: ['HTTP, ', 'APIs, ', 'Express, ', 'Nodejs'],
         repo: 'https://github.com/RyanLuttrell/Employee-Directory-Project',
-        briefDescription: 'This has by far been the most intimidating project I\'ve built. Not because it was a particularly challenging site to build, but rather because this is the first time that I\'m putting myself out there as a Software Engineer.',
-        alt: 'A simple Express website made by Ryan Luttrell',
+        briefDescription: 'I wonder if this will actually work',
         fullDescription: '',
         readMore: ''
     },
