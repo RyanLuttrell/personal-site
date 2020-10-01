@@ -1,3 +1,6 @@
+span {
+    margin-left: 16px 18px 0px 18px;
+}
 .navbar {
     height: 60px;
     width: 60px;
@@ -59,7 +62,6 @@
 
 .nav-text a:hover {
     background-color: #75be9a;
-    transition: 5f00ms;
 }
 
 .nav-menu-items {
@@ -82,12 +84,4 @@
 
 .close-icon {
     font-size: 20px;
-}
-
-.nav-icon {
-    
-}
-
-span {
-    margin-left: 16px 18px 0px 18px;
 }
