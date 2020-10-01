@@ -36,6 +36,11 @@
 }
 
 .project-technologies {
-    padding: 10px 0 10px 20px;
+    padding: 20px 0 10px 20px;
+    display: inline-block;
+}
+
+.project-github {
+    float: right;
 }
 

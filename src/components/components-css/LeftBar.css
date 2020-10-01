@@ -36,6 +36,7 @@ h3 {
 
 .html:hover {
     background-color: #e44d26;
+    transition: 500ms;
 }
 
 .css {
@@ -43,6 +44,7 @@ h3 {
 }
 .css:hover {
     background-color: #3c99dc;
+    transition: 500ms;
 }
 
 .javascript {
@@ -51,6 +53,7 @@ h3 {
 
 .javascript:hover {
     background-color:#f0db4f ;
+    transition: 500ms;
 }
 
 .node {
@@ -59,6 +62,7 @@ h3 {
 
 .node:hover {
     background: #3c873a;
+    transition: 500ms;
 }
 
 .express {
@@ -67,6 +71,7 @@ h3 {
 
 .express:hover {
     background-color: darkgrey;
+    transition: 500ms;
 }
 
 .react {
@@ -75,6 +80,7 @@ h3 {
 
 .react:hover {
     background-color: #61dbfb;
+    transition: 500ms;
 }
 
 .pug {
@@ -83,6 +89,7 @@ h3 {
 
 .pug:hover {
     background-color: #efcca3;
+    transition: 500ms;
 }
 
 .rest {
@@ -91,6 +98,7 @@ h3 {
 
 .rest:hover {
     background-color: #8cc63f;
+    transition: 500ms;
 }
 
 .sql {
@@ -99,6 +107,7 @@ h3 {
 
 .sql:hover {
     background-color: #00758F;
+    transition: 500ms;
 }
 
 .php {
@@ -107,6 +116,7 @@ h3 {
 
 .php:hover {
     background-color: #474A8A;
+    transition: 500ms;
 }
 
 .mongo {
@@ -115,6 +125,7 @@ h3 {
 
 .mongo:hover {
     background-color: #4db33d;
+    transition: 500ms;
 }
 
 .social-icons {
@@ -125,12 +136,15 @@ h3 {
 
 .github:hover {
     color: #7dbbe6;
+    transition: 500ms;
 }
 
 .linkedin:hover {
     color: #006192;
+    transition: 500ms;
 }
 
 .instagram:hover {
     color: #dd2a7b;
+    transition: 500ms;
 }
