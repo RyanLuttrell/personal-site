@@ -35,7 +35,13 @@ function Home() {
                 <div>
                     <h3>Find Out More:</h3>
                     <a target="_blank" href='https://github.com/RyanLuttrell'>
-                        <GrIcons.GrGithub/>
+                        <GrIcons.GrGithub className="social-icons" />
+                    </a>
+                    <a target="_blank" href='https://www.linkedin.com/in/ryan-luttrell/'>
+                        <GrIcons.GrLinkedin className="social-icons" />
+                    </a>
+                    <a target="_blank" href='https://www.instagram.com/standardryan/'>
+                        <GrIcons.GrInstagram className="social-icons" />
                     </a>
 
                 </div>
