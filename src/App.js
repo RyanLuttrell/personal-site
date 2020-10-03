@@ -6,6 +6,7 @@ import Header from './components/Header.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import LeftBar from './components/LeftBar.jsx';
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path='/about' component={About} />
           </Switch>
+          <Footer />
         </Router>
       </div>
     </div>

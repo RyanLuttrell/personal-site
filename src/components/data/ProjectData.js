@@ -11,12 +11,22 @@ export const ProjectData = [
         readMore: ''
     },
     {
+        title: 'React Web App With Rest API',
+        photos: ['img/final-project.jpg'],
+        date: 'September 15, 2020',
+        technologies: ['React, ', 'RestAPIs, ', 'SQL, ', 'sqlite, ', 'Express, ', 'Nodejs'],
+        repo: 'https://github.com/RyanLuttrell/react-with-rest-api',
+        briefDescription: 'This was the final project on my way to completing the Full-Stack JavavScript Tech Degree from TreeHouse. Full authentication, a RestAPI, React Front-end and even a mini CMS for the course content',
+        fullDescription: '',
+        readMore: ''
+    },
+    {
         title: 'Simple Express Site',
         photos: ['img/api1.jpg'],
         date: 'August 12, 2020',
-        technologies: ['HTTP, ', 'APIs, ', 'Express, ', 'Nodejs'],
+        technologies: ['HTTP, ', 'APIs, ', 'Express, ', 'Nodejs',],
         repo: 'https://github.com/RyanLuttrell/Employee-Directory-Project',
-        briefDescription: 'I wonder if this will actually work',
+        briefDescription: 'A very simple Nodejs site using Express',
         fullDescription: '',
         readMore: ''
     },

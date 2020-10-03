@@ -5,10 +5,8 @@ import Project from '../components/Project.jsx';
 
 function Home() {
     return (
-        <div className="primary-home-container">
-
+        <div className="primary-home-container clearfix">
                 <Project />
-
         </div>
     )
 }

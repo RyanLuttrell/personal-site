@@ -17,7 +17,7 @@ h4 {
   .primary-container {
     max-width: 1145px;
     margin: auto;
-    height: 500px;
+    height: inherit;
     margin-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -55,11 +55,42 @@ h4 {
 
 
   @media (max-width: 768px) {
-    /* .main-navigation {
+    .main-navigation {
       position: fixed;
       bottom: 30px;
       right: 30px;
       padding-right: 0;
       padding-top: 0;
-    } */
+    }
   }
+
+  @media (max-width: 720px) {
+    .main-header {
+      display: block;
+      height: 260px;
+      margin: auto;
+    }
+    .profile-image-container {
+      display: block;
+      float: none;
+      margin: auto;
+      max-width: 100%;
+      justify-content: center;
+    }
+    .profile-content {
+      display: block;
+      float: none;
+      margin: auto;
+      width: max-content;
+      padding: 0;
+      text-align: center;
+    }
+    .profile-badge {
+      width: 100%;
+      padding-right: 30px;
+    }
+    .profile-image {
+      display: block;
+      margin: auto;
+    }
+}

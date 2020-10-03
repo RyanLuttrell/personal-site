@@ -10,3 +10,9 @@
 body {
   background-color: #9fcaac;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

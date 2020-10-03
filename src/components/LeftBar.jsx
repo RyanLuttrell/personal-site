@@ -9,7 +9,7 @@ function Home() {
         <div className="primary-home-container">
             <div className="home-30">
                 <div className="knowledge-section">
-                    <h3>What I Know:</h3>
+                    <h3 className='knowledge-learning-padding'>What I Know:</h3>
                     {KnowledgeData.map((item, index) => {
                         return (
                             <div className="knowledge-div">
@@ -21,7 +21,7 @@ function Home() {
                     })}
                 </div>
                 <div className="learning-section">
-                    <h3>What I'm Learning:</h3>
+                    <h3 className='knowledge-learning-padding'>What I'm Learning:</h3>
                     {LearningData.map((item, index) => {
                         return (
                             <div className="knowledge-div">
@@ -33,7 +33,7 @@ function Home() {
                     })}
                 </div>
                 <div>
-                    <h3>Find Out More:</h3>
+                    <h3 h3 className='knowledge-learning-padding'>Find Out More:</h3>
                     <a target="_blank" href='https://github.com/RyanLuttrell'>
                         <GrIcons.GrGithub className="social-icons github" />
                     </a>

@@ -29,6 +29,7 @@ span {
     top: 0;
     right: -90%;
     transition: 1500ms;
+    transition-delay: 0ms;
     border-radius: 6px 6px 6px 6px;
     box-shadow: .5px .5px 5px lightslategray;
     margin-top: 30px;
@@ -37,7 +38,7 @@ span {
 
 .nav-menu.active {
     right: 35px;
-    transition: 1500ms;
+    transition: 500ms;
 }
 
 .nav-text {
