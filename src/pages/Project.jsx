@@ -1,12 +1,14 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
-import {ProjectData} from './data/ProjectData';
-import './components-css/Project.css'
+import {ProjectData} from '../components/data/ProjectData';
+import './pages-css/Project.css'
 import * as GrIcons from 'react-icons/gr';
+import Leftbar from '../components/LeftBar.jsx';
 
 export default function Project() {
     return (
-        <div>
+        <div className='clearfix'>
+            <Leftbar />
             {
                 ProjectData.map((project, index) => {
                     return (

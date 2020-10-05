@@ -1,0 +1,38 @@
+.resume-email,
+.resume-location,
+.resume-linkedin,
+.resume-instagram,
+.resume-github {
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+
+.contact-info,
+.resume-education,
+.resume-experience {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.resume-education {
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+
+.resume-experience {
+    width: 69%;
+    float: right;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.resume-education div {
+    padding-bottom: 10px;
+}

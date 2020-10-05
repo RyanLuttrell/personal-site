@@ -9,21 +9,21 @@ export const SidebarData = [
     //     path: '/about',
     //     cName: 'nav-text'
     // },
-    // {
-    //     title: 'Projects',
-    //     path: '/projects',
-    //     cName: 'nav-text'
-    // },
+    {
+        title: 'Projects',
+        path: '/projects',
+        cName: 'nav-text'
+    },
     // {
     //     title: 'Blog',
     //     path: '/blog',
     //     cName: 'nav-text'
     // },
-    // {
-    //     title: 'Resume',
-    //     path: '/resume',
-    //     cName: 'nav-text'
-    // },
+    {
+        title: 'Resume',
+        path: '/resume',
+        cName: 'nav-text'
+    },
     // {
     //     title: 'Contact',
     //     path: '/contact',

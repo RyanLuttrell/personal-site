@@ -12,7 +12,7 @@ function Home() {
                     <h3 className='knowledge-learning-padding'>What I Know:</h3>
                     {KnowledgeData.map((item, index) => {
                         return (
-                            <div className="knowledge-div">
+                            <div className="knowledge-div" key={index}>
                                 <a target="_blank" href={item.link}className={item.cName}>
                                     {item.skill}
                                 </a>
@@ -24,7 +24,7 @@ function Home() {
                     <h3 className='knowledge-learning-padding'>What I'm Learning:</h3>
                     {LearningData.map((item, index) => {
                         return (
-                            <div className="knowledge-div">
+                            <div className="knowledge-div" key={index}>
                                 <a target="_blank" href={item.link}className={item.cName}>
                                     {item.skill}
                                 </a>
