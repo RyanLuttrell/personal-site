@@ -88,6 +88,11 @@ span {
     box-shadow: .5px .5px 5px rgb(121, 121, 121);
 }
 
+.toggler:active {
+    box-shadow: .5px .5px 3px #797979;
+    background-color: #fafafa;
+}
+
 .close-icon {
     font-size: 20px;
 }

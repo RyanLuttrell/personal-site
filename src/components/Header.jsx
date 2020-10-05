@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
+// import Navbar2 from './Navbar2.jsx';
 import './components-css/Header.css'
 
 export default function Header() {
@@ -18,6 +19,7 @@ export default function Header() {
             </div>
             <div className="main-navigation">
                 <Navbar />
+                {/* <Navbar2 /> */}
             </div>
         </div>
     )
