@@ -16,7 +16,7 @@ export const ProjectData = [
         date: 'September 15, 2020',
         technologies: ['React, ', 'RestAPIs, ', 'SQL, ', 'sqlite, ', 'Express, ', 'Nodejs'],
         repo: 'https://github.com/RyanLuttrell/react-with-rest-api',
-        briefDescription: 'This was the final project on my way to completing the Full-Stack JavavScript Tech Degree from TreeHouse. Full authentication, a RestAPI, React Front-end and even a mini CMS for the course content',
+        briefDescription: 'This was the final project on my way to completing the Full-Stack JavaScript Tech Degree from TreeHouse. Full authentication, a RestAPI, React Front-end and even a mini CMS for the course content',
         fullDescription: '',
         readMore: ''
     },
